@@ -1,0 +1,158 @@
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.b1 {
+    border-color: #1F2937;
+}
+
+.b2 {
+    border-color: #F9FAF8;
+    margin: 30px;
+}
+
+.headersub {
+    font-size: 15px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-radius: 8px;
+    padding: 10px 25px 10px 25px;
+    border-style: solid;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.uppart {
+    background: #1F2937;
+    padding: 10px 100px 100px 100px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.logo {
+    font-size: 20px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hlink {
+    display: flex;
+    gap: 20px;
+}
+
+/* Hero */
+.aw {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.apic {
+    display: flex;
+    background: rgb(112, 110, 129);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px 100px 200px;
+}
+
+.hero {
+    font-size: 35px;
+    font-weight: 800;
+    color: #F9FAF8;
+    gap: 20px;
+}
+
+/* boxes */
+.boxes .boxesheader {
+    font-weight: 800;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.bb {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.blueb {
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    padding: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.caption {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 155px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 100px;
+}
+
+
+/* quote */
+.quote {
+    background: rgb(227, 224, 228);
+    font-weight: 100;
+    font-size: 30px;
+    color: #1F2937;
+    font-style: italic;
+    padding: 80px 200px 80px 200px;
+}
+
+.quoteauth {
+    font-weight: bold;
+    text-align: right;
+    font-size: 25px;
+    font-style: normal;
+    line-height: 0px;
+}
+
+
+/* call */
+.call {
+    display: flex;
+    border-radius: 6px;
+    justify-content: space-between;
+    background: #3882F6;
+    color:#F9FAF8;
+    padding: 15px 50px 15px 80px;
+    margin: 100px;
+}
+
+.chead {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 0px;
+    margin-top: 35px;
+}
+
+/* footer */
+.footer {
+    background: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 40px;
+}
